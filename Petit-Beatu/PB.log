@@ -5857,3 +5857,11 @@ java.net.UnknownHostException: googlechromelabs.github.io
 [INFO ] 2025-10-29 10:14:56.520 [main] PBSteps - Successfully product name Entered  in search box
 [INFO ] 2025-10-29 10:15:05.133 [main] PBSteps - Succesfully clicked auto  suggestion Products based on search product name : Boys' Jogging Trousers
 [INFO ] 2025-10-29 10:15:05.147 [main] PBSteps - Successfully verified product name consistency
+[INFO ] 2025-10-30 02:37:31.570 [main] WebDriverManager - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+[INFO ] 2025-10-30 02:37:31.607 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+[INFO ] 2025-10-30 02:37:35.444 [main] WebDriverManager - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+[INFO ] 2025-10-30 02:37:35.494 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+[INFO ] 2025-10-30 02:37:37.764 [main] WebDriverManager - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+[INFO ] 2025-10-30 02:37:37.801 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+[INFO ] 2025-10-30 02:37:39.764 [main] WebDriverManager - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+[INFO ] 2025-10-30 02:37:39.852 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Administrator\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe

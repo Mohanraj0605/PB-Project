@@ -3,12 +3,13 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2025-10-29T04:31:48.249Z",
+        "start_timestamp": "2025-10-29T21:07:30.709Z",
         "before": [
           {
             "result": {
-              "duration": 9492000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom unknown error: cannot determine loading status\nfrom target frame detached\n  (Session info: chrome\u003d142.0.7444.59)\nBuild info: version: \u00274.8.2\u0027, revision: \u0027826dbfc730\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_381\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [982c4cf4384d435373ac61c07182a6b0, get {url\u003dhttps://www.petit-bateau.ae/en/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55509}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55509/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 982c4cf4384d435373ac61c07182a6b0\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)\r\n\tat org.base.Ultilityclass.launchurl(Ultilityclass.java:148)\r\n\tat org.steps.PBHooks.Start(PBHooks.java:29)\r\n",
+              "duration": 4535000000,
+              "status": "failed"
             },
             "match": {
               "location": "org.steps.PBHooks.Start()"
@@ -22,8 +23,9 @@
         "after": [
           {
             "result": {
-              "duration": 3242000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection\nfrom disconnected: not connected to DevTools\n  (Session info: chrome\u003d142.0.7444.59)\nBuild info: version: \u00274.8.2\u0027, revision: \u0027826dbfc730\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_381\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [982c4cf4384d435373ac61c07182a6b0, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55509}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55509/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 982c4cf4384d435373ac61c07182a6b0\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)\r\n\tat org.steps.PBHooks.End(PBHooks.java:42)\r\n",
+              "duration": 49000000,
+              "status": "failed"
             },
             "match": {
               "location": "org.steps.PBHooks.End(io.cucumber.java.Scenario)"
@@ -35,8 +37,8 @@
         "steps": [
           {
             "result": {
-              "duration": 25443000000,
-              "status": "passed"
+              "duration": 7000000,
+              "status": "skipped"
             },
             "line": 8,
             "name": "user opens the Home page as a login user",
@@ -47,8 +49,8 @@
           },
           {
             "result": {
-              "duration": 17163000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 9,
             "name": "the user navigates from a main category to a subcategory",
@@ -59,8 +61,8 @@
           },
           {
             "result": {
-              "duration": 22227000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 10,
             "name": "the user selects a Sort By option and verifies the sorted product listing",
@@ -71,8 +73,8 @@
           },
           {
             "result": {
-              "duration": 36483000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 11,
             "name": "the user checks the pagination functionality on the PLP page",
@@ -83,8 +85,7 @@
           },
           {
             "result": {
-              "duration": 36145000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "the user clicks on a product and is redirected to the Product Detail Page",
@@ -95,8 +96,7 @@
           },
           {
             "result": {
-              "duration": 81387000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "User adds multiple item to cart,then,removes items from cart and observes order summary calculation",
@@ -107,8 +107,7 @@
           },
           {
             "result": {
-              "duration": 35144000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "the user enters shipping and billing address details in checkout page",
@@ -119,8 +118,7 @@
           },
           {
             "result": {
-              "duration": 70114000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "after entering the address details, the user selects a payment option and places the order",
@@ -140,12 +138,13 @@
         ]
       },
       {
-        "start_timestamp": "2025-10-29T04:37:25.198Z",
+        "start_timestamp": "2025-10-29T21:07:35.429Z",
         "before": [
           {
             "result": {
-              "duration": 5791000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d142.0.7444.59)\nBuild info: version: \u00274.8.2\u0027, revision: \u0027826dbfc730\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_381\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [276c58690bd73e513e6e086a62cfb025, maximizeCurrentWindow {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60463}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60463/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 276c58690bd73e513e6e086a62cfb025\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:953)\r\n\tat org.base.Ultilityclass.pagemaximize(Ultilityclass.java:162)\r\n\tat org.steps.PBHooks.Start(PBHooks.java:31)\r\n",
+              "duration": 2280000000,
+              "status": "failed"
             },
             "match": {
               "location": "org.steps.PBHooks.Start()"
@@ -159,8 +158,9 @@
         "after": [
           {
             "result": {
-              "duration": 3225000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d142.0.7444.59)\nBuild info: version: \u00274.8.2\u0027, revision: \u0027826dbfc730\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_381\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [276c58690bd73e513e6e086a62cfb025, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60463}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60463/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 276c58690bd73e513e6e086a62cfb025\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)\r\n\tat org.steps.PBHooks.End(PBHooks.java:42)\r\n",
+              "duration": 7000000,
+              "status": "failed"
             },
             "match": {
               "location": "org.steps.PBHooks.End(io.cucumber.java.Scenario)"
@@ -172,8 +172,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18757000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "the user opens the Home page and do the login",
@@ -184,8 +183,7 @@
           },
           {
             "result": {
-              "duration": 11875000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "the user selects a category and subcategory option from the Home page",
@@ -196,8 +194,7 @@
           },
           {
             "result": {
-              "duration": 4012000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "the Product Listing Page is displayed based on the selected category",
@@ -208,8 +205,7 @@
           },
           {
             "result": {
-              "duration": 35523000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "the user clicks on any one product image based on the applied filter",
@@ -220,8 +216,8 @@
           },
           {
             "result": {
-              "duration": 49087000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 24,
             "name": "the user navigates from the Product Detail Page  to the cart page",
@@ -232,8 +228,7 @@
           },
           {
             "result": {
-              "duration": 58602000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 25,
             "name": "the user clicks on the checkout button",
@@ -244,8 +239,7 @@
           },
           {
             "result": {
-              "duration": 8099000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 26,
             "name": "the user select the shipp addrres  details and   navigated to the Payment Options section",
@@ -256,8 +250,7 @@
           },
           {
             "result": {
-              "duration": 51559000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 27,
             "name": "the user Select the payment option and places the order.Then,Verify the order detail in my account page",
@@ -277,12 +270,13 @@
         ]
       },
       {
-        "start_timestamp": "2025-10-29T04:41:31.739Z",
+        "start_timestamp": "2025-10-29T21:07:37.730Z",
         "before": [
           {
             "result": {
-              "duration": 4050000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d142.0.7444.59)\nBuild info: version: \u00274.8.2\u0027, revision: \u0027826dbfc730\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_381\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [49572ead8d8e3cc12b6edb13c8afa9b0, maximizeCurrentWindow {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53306}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53306/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 49572ead8d8e3cc12b6edb13c8afa9b0\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:953)\r\n\tat org.base.Ultilityclass.pagemaximize(Ultilityclass.java:162)\r\n\tat org.steps.PBHooks.Start(PBHooks.java:31)\r\n",
+              "duration": 1969000000,
+              "status": "failed"
             },
             "match": {
               "location": "org.steps.PBHooks.Start()"
@@ -296,8 +290,9 @@
         "after": [
           {
             "result": {
-              "duration": 3237000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d142.0.7444.59)\nBuild info: version: \u00274.8.2\u0027, revision: \u0027826dbfc730\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_381\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [49572ead8d8e3cc12b6edb13c8afa9b0, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53306}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53306/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 49572ead8d8e3cc12b6edb13c8afa9b0\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)\r\n\tat org.steps.PBHooks.End(PBHooks.java:42)\r\n",
+              "duration": 9000000,
+              "status": "failed"
             },
             "match": {
               "location": "org.steps.PBHooks.End(io.cucumber.java.Scenario)"
@@ -309,8 +304,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 33,
             "name": "the user opens the Home page as a guest and selects a category to navigate to the Product Listing Page",
@@ -321,8 +315,7 @@
           },
           {
             "result": {
-              "duration": 5581000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 34,
             "name": "the user clicks on the quick view of any product from the PLP",
@@ -333,8 +326,7 @@
           },
           {
             "result": {
-              "duration": 20366000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 35,
             "name": "on the quick view popup, the user selects the size and quantity for the product",
@@ -345,8 +337,7 @@
           },
           {
             "result": {
-              "duration": 17514000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 36,
             "name": "the user clicks the Add to Cart button and is navigated to the Cart page",
@@ -357,8 +348,7 @@
           },
           {
             "result": {
-              "duration": 15745000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 37,
             "name": "the user clicks the Checkout button as a guest user",
@@ -369,8 +359,7 @@
           },
           {
             "result": {
-              "duration": 35831000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 38,
             "name": "the user completes mobile number verification and observes the page response",
@@ -381,8 +370,7 @@
           },
           {
             "result": {
-              "duration": 88297000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 39,
             "name": "the user clicks on the Continue to Payment button and places the order",
@@ -402,12 +390,13 @@
         ]
       },
       {
-        "start_timestamp": "2025-10-29T04:44:42.390Z",
+        "start_timestamp": "2025-10-29T21:07:39.736Z",
         "before": [
           {
             "result": {
-              "duration": 6983000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d142.0.7444.59)\nBuild info: version: \u00274.8.2\u0027, revision: \u0027826dbfc730\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_381\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f4e8baba3e4fa4c4218eb7d4f03e54f1, maximizeCurrentWindow {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62287}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62287/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f4e8baba3e4fa4c4218eb7d4f03e54f1\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:953)\r\n\tat org.base.Ultilityclass.pagemaximize(Ultilityclass.java:162)\r\n\tat org.steps.PBHooks.Start(PBHooks.java:31)\r\n",
+              "duration": 2002000000,
+              "status": "failed"
             },
             "match": {
               "location": "org.steps.PBHooks.Start()"
@@ -421,8 +410,9 @@
         "after": [
           {
             "result": {
-              "duration": 3294000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d142.0.7444.59)\nBuild info: version: \u00274.8.2\u0027, revision: \u0027826dbfc730\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_381\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f4e8baba3e4fa4c4218eb7d4f03e54f1, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\\Windows\\SystemTemp\\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62287}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62287/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: f4e8baba3e4fa4c4218eb7d4f03e54f1\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)\r\n\tat org.steps.PBHooks.End(PBHooks.java:42)\r\n",
+              "duration": 5000000,
+              "status": "failed"
             },
             "match": {
               "location": "org.steps.PBHooks.End(io.cucumber.java.Scenario)"
@@ -434,8 +424,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 45,
             "name": "user opens the Home page as a guest user",
@@ -446,8 +435,8 @@
           },
           {
             "result": {
-              "duration": 7130000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 46,
             "name": "User Enter the product name in search box \"TROUSERS\"",
@@ -464,8 +453,7 @@
           },
           {
             "result": {
-              "duration": 8627000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 47,
             "name": "User Should be visible related product.then,Click on any product and navigate  to the PDP page",
